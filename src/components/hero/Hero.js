@@ -7,18 +7,15 @@ const Hero = () => {
     return (
         <div className='hero'>
             <div className='content'>
-                <h1>Find the perfect place</h1>
-                <p className='search-text'> Search the largest selection of luxury high-rise apartments, multi-family homes, and luxury homes. </p>
+                <h1>Energy Hub</h1>
+                <p className='search-text'> Search about the contractors </p>
                 <form className='search'>
 
                     <div>
-                        <input type='text' placeholder='Enter Keyword..' />
+                        <input type='text' placeholder='Enter name...' />
                     </div>
                     <div className='radio'> 
-                        <input type='radio' checked />
-                        <label>Buy</label>
-                        <input type='radio'  />
-                        <label>Rent</label>
+                       
                         <button type='submit'><AiOutlineSearch className='icon'/></button>
                     </div>
                 </form>

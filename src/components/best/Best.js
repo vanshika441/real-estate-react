@@ -1,27 +1,25 @@
 import React from 'react'
 
-import Apt1 from '../../assets/apt1.jpeg'
-import Apt2 from '../../assets/apt2.jpeg'
-import Apt3 from '../../assets/apt3.jpeg'
+import Apt1 from '../../assets/Solar-1.jpg'
+import Apt2 from '../../assets/wind.jpg'
+import Apt3 from '../../assets/hydroele.jpg'
+import Apt5 from '../../assets/geoo.jpg'
 
 import './Best.css'
 
 const Best = () => {
     return (
         <div className='best'>
-            <h1>Find Best Rated Properties</h1>
-            <div>
-                <p><span className='bold'>All</span></p>
-                <p>Commercial</p>
-                <p>Residential</p>
-                <p>Agricultural</p>
-            </div>
+            <h1>Renewable energies</h1>
+            
             <div className='container'>
                 <img src={Apt1} alt='' />
                 <img src={Apt2} alt='' />
                 <img src={Apt3} alt='' />
+                <img src={Apt5} alt='' />
+            
             </div>
-            <button className='btn'>View All</button>
+            
         </div>
     )
 }
